@@ -16,10 +16,10 @@
 - 3rd party modules
 - custom modules(files)
 
-# in terminal
+# etc
 
-node
--> can code with js
+- in terminal
+  node -> can code with js
 
 - dependency: nodemon-don't need to restart server
   npm install -D nodemon
@@ -37,5 +37,14 @@ node
 - why not `import Person from "./person";?`
   because node not implement yet
 
-- core modules
-  path:
+- check reference/demos
+
+# deploy
+
+- download heroku
+- `heroku --version`
+- `heroku login`
+- `heroku create`->create random name domain
+- go my app->deploy tap and copy `heroku git:remote -a tranquil-inlet-86102`
+- git push heroku master -> error
+- `heroku open`

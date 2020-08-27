@@ -1,5 +1,5 @@
 const path = require("path");
-//don't need file path becuase its core module
+//*don't need file path because its core module
 
 //Base file name
 console.log(path.basename(__filename));
@@ -7,7 +7,7 @@ console.log(path.basename(__filename));
 // Directory name
 console.log(path.dirname(__filename));
 
-//File extension
+//File extension ex).js/ .txt...
 console.log(path.extname(__filename));
 
 // Create path object
