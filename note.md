@@ -48,3 +48,18 @@
 - go my app->deploy tap and copy `heroku git:remote -a tranquil-inlet-86102`
 - git push heroku master -> error
 - `heroku open`
+  so I did again and its working
+
+0. <fey repo check!!>
+   https://github.com/FeyAgape/GitAndMore/blob/master/heroku.md
+1. `heroku login`do it in terminal not in vs code
+2. .gitignore
+3. git init
+4. git add.
+5. git commit -m"Initial commit"
+6. heroku create
+7. go to deploy
+8. copy in third line
+   `heroku git:remote -a <name>`
+9. `git push heroku master`
+10. `heroku open`
