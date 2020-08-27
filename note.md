@@ -63,3 +63,5 @@
    `heroku git:remote -a <name>`
 9. `git push heroku master`
 10. `heroku open`
+
+\*when I `git remote -v` its connected with heroku and git!
